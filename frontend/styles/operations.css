@@ -1,0 +1,71 @@
+.operations-active .btn {
+    margin: 0 10px 0 0;
+}
+
+.operations-content-table .table {
+    table-layout: fixed;
+    width: 1101px;
+}
+
+.operations-content-table .table thead th:nth-child(1) {
+    width: 13.4%;
+}
+
+.operations-content-table .table thead th:nth-child(2) {
+    width: 13.4%;
+}
+
+.operations-content-table .table thead th:nth-child(3) {
+    width: 13.4%;
+}
+
+.operations-content-table .table thead th:nth-child(4) {
+    width: 13.4%;
+}
+
+.operations-content-table .table thead th:nth-child(5) {
+    width: 13.4%;
+}
+
+.operations-content-table .table thead th:nth-child(7) {
+    width: 7%;
+}
+
+
+.operations-content-table .table thead {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 1.33333px;
+    color: #052C65;
+    text-align: center;
+}
+
+.operations-content-table .table tbody {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+
+.operations-content-table .table tbody .table-income {
+    color: #198754;
+}
+
+.operations-content-table .table tbody .table-expense {
+    color: #DC3545;
+}
+
+.operations-content-table .table tbody .table-icon {
+    text-align: right;
+}
+
+.operations-content-table .table tbody .table-icon button {
+    margin-right: 11px;
+    cursor: pointer;
+}
+
+.operations-content-table .table tbody .table-icon .btn {
+    padding: 0;
+}

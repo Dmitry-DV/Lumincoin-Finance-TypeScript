@@ -1,0 +1,41 @@
+<section>
+    <h1 class="title">
+        <h1 class="title">
+            Главная
+        </h1>
+        <div id="filter-menu">
+            <div id="filter-menu-button">
+                <button class="filter-menu-btn btn btn-outline-secondary active" id="today">Сегодня</button>
+                <button class="filter-menu-btn btn btn-outline-secondary" id="week">Неделя</button>
+                <button class="filter-menu-btn btn btn-outline-secondary" id="month">Месяц</button>
+                <button class="filter-menu-btn btn btn-outline-secondary" id="year">Год</button>
+                <button class="filter-menu-btn btn btn-outline-secondary" id="all">Все</button>
+                <button class="filter-menu-btn btn btn-outline-secondary" id="interval">Интервал</button>
+            </div>
+            <div class="filter-menu-btn-interval">
+                <span>с</span>
+                <input type="date" id="dateFrom">
+                <span>По</span>
+                <input type="date" id="dateTo">
+            </div>
+        </div>
+        <div class="graphs-operation-content d-flex justify-content-sm-around align-items-end">
+            <div class="graph-operation-content">
+                <div class="graph-operation-content-types graph-operation-content-type-income d-flex flex-column align-items-center">
+                    <h2 class="graph-operation-content-title mb-4">
+                        Доходы
+                    </h2>
+                    <canvas class="graph-operation-content-canvas" id="graph-operation-income"></canvas>
+                </div>
+            </div>
+            <div class="graph-line"></div>
+            <div class="graph-operation-content text-center">
+                <div class="graph-operation-content-types graph-operation-content-type-expense d-flex flex-column align-items-center">
+                    <h2 class="graph-operation-content-title mb-4">
+                        Расходы
+                    </h2>
+                    <canvas class="graph-operation-content-canvas" id="graph-operation-expense"></canvas>
+                </div>
+            </div>
+        </div>
+</section>

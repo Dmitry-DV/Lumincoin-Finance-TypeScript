@@ -1,0 +1,25 @@
+.control-category-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.control-category-form-input, .control-category-form-input::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #6C757D;
+}
+
+.control-category-form label {
+    width: 397px;
+    height: 38px;
+    margin-bottom: 10px;
+}
+
+.control-category-form-actions {
+    padding-top: 10px;
+}
+
+.control-category-form-actions .btn {
+    margin-right: 10px;
+}

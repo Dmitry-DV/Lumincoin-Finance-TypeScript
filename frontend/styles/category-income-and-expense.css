@@ -1,0 +1,58 @@
+.category-items {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(352px, 1fr));
+    grid-row-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-items .category-item {
+    padding: 20px;
+    border: 1px solid #CED4DA;
+    border-radius: 12px;
+    width: 352px;
+    height: 121px;
+    box-sizing: border-box;
+}
+
+.category-items .category-item .category-item-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #290661;
+    margin-bottom: 10px;
+}
+
+.category-items .category-item .category-item-actions .btn {
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.category-items .category-item .category-item-actions .btn-create {
+    width: 134px;
+    height: 38px;
+}
+
+.category-items .category-item .category-item-actions .btn-delete {
+    width: 88px;
+    height: 38px;
+}
+
+.category-items .category-item-get {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    color: #CED4DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: color .15s ease-in-out;
+}
+
+.category-items .category-item-get:hover {
+    color: #290661;
+}

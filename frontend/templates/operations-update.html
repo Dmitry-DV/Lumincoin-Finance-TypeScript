@@ -1,0 +1,33 @@
+<section>
+    <h1 class="title">
+        Редактирование дохода/расхода
+    </h1>
+    <div class="control-category-form">
+        <label>
+            <select class="control-category-form-input form-control control-input" id="select-type">
+                <option value="income" class="select-option-type">Доход</option>
+                <option value="expense" class="select-option-type">Расход</option>
+            </select>
+        </label>
+        <label>
+            <select class="control-category-form-input form-control control-input" id="select-category"></select>
+        </label>
+        <label>
+            <input type="text" class="control-category-form-input form-control control-input" required placeholder="Сумма в $..." id="input-amount">
+        </label>
+        <label>
+            <input type="date" class="control-category-form-input form-control control-input" required id="input-date">
+        </label>
+        <label>
+            <input type="text" class="control-category-form-input form-control control-input" required
+                   placeholder="Комментарий..." id="input-comment">
+        </label>
+        <div class="control-category-form-actions">
+            <button class="btn btn-success" id="save">Сохранить</button>
+            <a href="#/operations" class="text-decoration-none">
+                <button class="btn btn-danger">Отмена</button>
+            </a>
+        </div>
+    </div>
+
+</section>
