@@ -46,12 +46,6 @@ export class OperationCreateUpdate {
 
         try {
             this.categoryExpense = await CustomHttp.request(config.host + '/categories/expense');
-            // if (result) {
-            //     if (result.error) {
-            //         throw new Error(result.message);
-            //     }
-            //     this.categoryExpense = result;
-            // }
         } catch (error) {
             console.log(error);
         }
@@ -70,9 +64,7 @@ export class OperationCreateUpdate {
 
         Array.from(selectOptionType).find((optionItem: HTMLOptionElement) => {
             if (optionItem.value === that.routeParams.type) {
-                // if (optionItem.hasOwnProperty('selected')) {
                 optionItem['selected'] = true;
-                // }
 
                 if (that.routeParams.type === 'income') {
                     that.categoryIncome.forEach((incomeItem: CategoriesType) => {
