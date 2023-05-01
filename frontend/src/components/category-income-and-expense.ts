@@ -31,22 +31,14 @@ export class CategoryIncomeAndExpense {
         if (this.page === 'income') {
             try {
                 this.dataCategories = await CustomHttp.request(config.host + '/categories/income');
-                // if (result) {
-                //     if (result.error) {
-                //         throw new Error(result.message);
-                //     }
                 this.processCreateCategories();
-                // }
             } catch (error) {
                 console.log(error);
             }
         } else if (this.page === 'expense') {
             try {
                 this.dataCategories = await CustomHttp.request(config.host + '/categories/expense');
-                // if (result) {
-                //     if (result.error) {
-                //         throw new Error(result.message);
-                //     }
+               
                 this.processCreateCategories();
                 // }
             } catch (error) {
